@@ -1,0 +1,85 @@
+/* ------------------- ESTILO GENERAL ------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    background: #0A0A0C; /* Fondo oscuro para contraste */
+    color: #F2F2F2; /* Texto claro */
+}
+
+/* ------------------- HEADER ------------------- */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #00E5FF, #8A2BE2);
+    color: white;
+    box-shadow: 0px 4px 25px rgba(0, 229, 255, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00E5FF;
+}
+
+/* ------------------- NAVEGACIÓN ------------------- */
+nav a {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00E5FF;
+    text-shadow: 0 0 10px #00E5FF;
+}
+
+/* ------------------- SECCIÓN PRINCIPAL ------------------- */
+section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #0A0A0C, #2E2F36);
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(138, 43, 226, 0.4);
+}
+
+section h2 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 8px #8A2BE2;
+}
+
+section p {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+/* ------------------- ARTÍCULO DE IMÁGENES ------------------- */
+article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+}
+
+article img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: 0.4s;
+}
+
+/* Efecto al pasar el mouse */
+article img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(138, 43, 226, 0.8);
+}
